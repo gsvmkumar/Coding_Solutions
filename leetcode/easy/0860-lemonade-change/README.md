@@ -50,7 +50,7 @@ Since not every customer received the correct change, the answer is false.
 **Language:** Java  
 **Runtime:** 3 ms (beats 11.35%)  
 **Memory:** 72 MB (beats 93.97%)  
-**Submitted:** 2026-10-18T13:14:19.753Z  
+**Submitted:** 2026-10-18T13:18:05.480Z  
 
 ```java
 class Solution {
@@ -67,17 +67,15 @@ class Solution {
                 ch[1]++;
             }
             else{
-                if( ch[0]<3 ){
-                    if(ch[0]<1 || ch[1]<1)
-                        return false;
-                }
                 ch[2]++;
-                if(ch[0]>=1 && ch[1]>=1){
+                if(ch[0]>0 && ch[1]>0){
                     ch[0]--;
                     ch[1]--;
-                }else{
-                    ch[0]-=3;
                 }
+                else if(ch[0]>=3)
+                    ch[0]-=3;
+                else
+                    return false;
             }
         }
         return true;
