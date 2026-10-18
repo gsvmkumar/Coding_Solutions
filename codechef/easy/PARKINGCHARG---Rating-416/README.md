@@ -96,7 +96,7 @@ So, for the first hour, she will pay Rs. $10$. And she does not have to pay any 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-18T13:35:50.306Z  
+**Submitted:** 2026-10-18T13:35:56.303Z  
 
 ```java
 import java.util.*;
