@@ -48,9 +48,9 @@ Explanation: You don't need to remove any of the intervals since they're already
 ## Solution
 
 **Language:** Java  
-**Runtime:** 50 ms (beats 21.11%)  
-**Memory:** 115.1 MB (beats 98.01%)  
-**Submitted:** 2026-10-21T15:56:26.371Z  
+**Runtime:** 47 ms (beats 61.26%)  
+**Memory:** 115.2 MB (beats 96.70%)  
+**Submitted:** 2026-10-21T16:06:44.279Z  
 
 ```java
 class Solution {
