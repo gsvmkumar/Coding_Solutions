@@ -47,9 +47,9 @@ Explanation: None of the intervals overlap, so we can put all of them in one gro
 ## Solution
 
 **Language:** Java  
-**Runtime:** 150 ms (beats 5.17%)  
-**Memory:** 131.2 MB (beats 5.08%)  
-**Submitted:** 2026-10-20T14:23:02.119Z  
+**Runtime:** 153 ms (beats 5.00%)  
+**Memory:** 130.7 MB (beats 5.17%)  
+**Submitted:** 2026-10-22T12:08:44.862Z  
 
 ```java
 class Solution {
