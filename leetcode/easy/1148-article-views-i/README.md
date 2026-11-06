@@ -60,16 +60,16 @@ Output:
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 424 ms (beats 14.98%)  
+**Runtime:** 484 ms (beats 6.30%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-11-05T12:49:48.570Z  
+**Submitted:** 2026-11-05T12:49:20.514Z  
 
 ```sql
 -- Write your PostgreSQL query statement below
-SELECT DISTINCT author_id AS id
+SELECT DISTINCT author_id as id
 FROM Views
 WHERE author_id=viewer_id
-ORDER BY id;
+order by id;
 ```
 
 ---
