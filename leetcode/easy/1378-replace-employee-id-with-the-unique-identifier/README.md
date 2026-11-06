@@ -87,9 +87,9 @@ The unique ID of Jonathan is 1.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 433 ms (beats 57.77%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-11-06T00:54:11.629Z  
+**Runtime:** 150 ms  
+**Memory:** 0B  
+**Submitted:** 2026-11-06T00:54:27.909Z  
 
 ```sql
 -- Write your PostgreSQL query statement below
@@ -97,8 +97,7 @@ SELECT
     eu.unique_id,
     e.name
 FROM Employees e LEFT JOIN EmployeeUNI eu
-on e.id=eu.id
-order by eu.unique_id
+on e.id=eu.id;
 ```
 
 ---
