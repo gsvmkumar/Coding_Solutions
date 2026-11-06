@@ -87,9 +87,9 @@ The unique ID of Jonathan is 1.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 150 ms  
-**Memory:** 0B  
-**Submitted:** 2026-11-06T00:54:27.909Z  
+**Runtime:** 400 ms (beats 84.56%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-11-06T00:54:37.199Z  
 
 ```sql
 -- Write your PostgreSQL query statement below
